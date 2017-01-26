@@ -27,31 +27,38 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 
 ### Sprint 1
 
-* As a player, I am able to register an account via both the website and the iPhone app.
-* As a player, I should be able to choose the cat character and draw two effect or ability cards locally.
-* As a game player, I am able to get matched with another player with the same level of skills to play the game.
-* As a back-end developer, I need to build a user database to store all the user information and a card database to store card data.
-* As a back-end developer, I need to create APIs on the server side for the front-end app.
-* As a designer, I need to design cat cards (characters), ability cards and effect cards.
+* As a player, I am able to view my profile via both the website and the iOS app.
+* As a back-end developer, I need to fix old server bugs.
+* As a back-end developer, I need to create APIs on the server side for the web app.
+* As an iOS developer, I need to fix old bugs.
+* As an iOS developer, I need to design user interface for displaying user profile.
+* As an iOS developer, I need to redesign the user interface to support more than two players battling in one game.
+* As a web developer, I need to design user interface to show user profile.
+* As a web developer, I need to design user interface for playing the game.
 
 ### Sprint 2
 
-* As a back-end developer, I need to build the match matching system which match two players with the same level of skills.
-* As a back-end developer, I need to implement the game logic (picking characters, drawing cards, using cars against the target) at the server side.
-* As a front-end developer, I need to use APIs provided by the server to send requests and receive responds. Then I make the front-end app update UI and internal data structures according to the returned data from the server.
+* As a back-end developer, I need to add more cats, abilities and chance cards to the database.
+* As an iOS developer, I need to keep polishing the app, fix bugs and add more animations.
+* As a web developer, I need to use APIs provided by the server to send requests and receive responds. Then I make the web app update UI and internal data structures according to the returned data from the server.
+* As an android developer, I need to design the user interface for displaying user profile.
+* As an android developer, I need to do some research on the frameworks for creating the game.
+* As an android developer, I need to design the use interface for playing the game.
 
 ### Sprint 3
 
-* As a game player, the game now is playable. Game logics are correct. The animation of the front-end app is clear and intuitive.
+* As a game player, the game now is playable via web and mobile apps. Game logics are correct. The animation of the front-end app is clear and intuitive.
 * As a front-end developer, I need to keep polishing the app, including transitions between views and card animations.
 * As a back-end developer, I need to keep improving all the algorithms to make the whole system more stable.
 
 ## Product Backlog
 
+* As a designer, I need to design more cat, ability and chance cards.
+
 ## Architecture
 
-* Web application for registration
-* iPhone App for playing games
+* Registration from both website and mobile apps
+* Play the game via both website and mobile apps
 * Server for storing data and doing algorithms
 
 ## Challenges/Risks
