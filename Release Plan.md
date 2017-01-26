@@ -11,6 +11,9 @@
 	4. Eric Martinez
     5. Jiahua You (Gawa)
     6. Jiahao Xu (Alex)
+* Release date: Mar 30, 2017
+* Revision number: 1.0
+* revision date: Jan 26, 2017
 
 ## Notice
 
