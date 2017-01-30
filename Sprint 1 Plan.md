@@ -8,8 +8,9 @@
 
 ## Goal
 
-* Enable user account registration via both a website and iPhone app.
-* Create working server that establishes communication to iPhone client and SQL database.
+* Fix old bugs (server and iOS app).
+* Enable user to view his or her profile via both website and iPhone app.
+* Design user interface to support more than two players in one game.
 
 ## User Stories
 
