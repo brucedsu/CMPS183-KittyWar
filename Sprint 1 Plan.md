@@ -14,54 +14,60 @@
 
 ## User Stories
 
-### As a back-end developer, I need a database to store user information and card data
+### As a server developer, I need to fix old server bugs.
 
-* (5) Research Django and MySQL
-* (2) Configure SQL server
-* (2) Configure Django server to process these requests
-* Total Story Points: 9
+* (2) Fix bug: sometimes user can't use chance card
+* (5) Fix other unknown/known bugs
+* Total story points: 7
 
-### As a player, I want to register an account via a website
+### As a server developer, I need to create APIs on the server side for the web app.
 
-* (3) Build basic website to handle registration
-* (2) Store data into a database to track who has registered
-* Total Story Points: 5
+### As a iOS developer, I need to fix old bugs.
 
-### As a player, I want to register an account via an iPhone app
+* (2) Fix bug: sometimes go to next phase unexpectedly
+* (5) Fix other unknown/known bugs
+* Total story points: 7
 
-* (8) Build front end of iPhone app to accept registration
-* (5) Configure django web server to accept registration requests and forward to database
-* (2) Ensure protocol is working between django server and iPhone client
-* Total Story Points: 15
+### As a player, I want to view my profile on the iOS app.
 
-### As a player, I want to log into a website and view my cards
+* (3) Design user interface for displaying user name, skill level, unlocked cats and wins
+* (1) Add required data columns including skill level and wins to database
+* (3) Create API on the server side to send required user profile data to the iOS app
+* (3) Use the API provided by the server to fetch all required data
+* Total story points: 10
 
-* (5) Build webpage to display all of this data
-* (2) Enable authentication and appropriate setting on Django server
-* (3) Build SQL model for card data
-* Total Story Points: 10
+### As a player, I want to battle against multiple players in one game on the iOS app.
 
-### As a player, I want to log into an iPhone app and view my cards
+* (5) Redesign user interface to support battling against multiple players
+* (3) Create API on the server side to let player select one target from multiple enemies
+* (3) Enable player choose a target for specific movement on the iOS app
+* (3) Use the API provided by the server to show strategies of multiple enemies
+* (3) Update player and enemies' status at the end of each phase
+* Total story points: 17
 
-* (5) Build UI centered around signing in and displaying personal saved information
-* (5) Ensure custom python server routes login data to database and authenticates the user
-* Total Story Points: 10
+### As a player, I want to view my profile from the web app.
 
-### As a player, I am matched against an opponent and put into a lobby
+* (3) Design user interface for displaying user name, skill level, unlocked cats and wins
+* (3) Create API on the server side to send required user profile data to the web app
+* (3) Use the API provided by the server to fetch all required data
+* Total story points: 9
 
-* (5) Improve custom server to wait for connections using TCP and place connecting players into a lobby
-* (5) Establish connection to the server from iPhone app
-* (5) Ensure data is properly sent between client and server
-* Total Story Points: 15
+### As a web developer, I need to design user interface for playing the game.
 
-#### Grand Total Story Points: 64
+* (3) Design the user interface for finding a match
+* (5) Design the user interface for playing the game
+* Total story points: 8
+
+#### Grand Total Story Points: 58
 
 ## Team roles
 
-* :bowtie: Hejia Su (iPhone & Backend Developer)
-* :blush: Yueqiao Zhang (iPhone Developer)
-* :smirk: Juan Gonzalez (Backend Developer)
-* :sleeping: Eric Martinez (Backend Developer)
+* :bowtie: Hejia Su (iOS & Server & Web Developer)
+* :blush: Yueqiao Zhang (Web Developer)
+* :smirk: Juan Gonzalez (Server & Android Developer)
+* :sleeping: Eric Martinez (Server & Android Developer)
+* :sunglasses: Jiahua You (Web Developer)
+* :yum: Jiahao Xu (iOS & Android Developer)
 
 ## Initial Tasks
 
