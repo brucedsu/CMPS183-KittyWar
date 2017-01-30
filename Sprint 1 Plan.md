@@ -24,7 +24,7 @@
 
 ### As a iOS developer, I need to fix old bugs.
 
-* (2) Fix bug: sometimes go to next phase unexpectedly
+* (2) Fix bug: games sometimes goes to next phase unexpectedly
 * (5) Fix other unknown/known bugs
 * Total story points: 7
 
@@ -73,31 +73,65 @@
 
 ### Hejia Su
 
-#### As a back-end developer, I need a user database to store user information and card a database to store card data
+#### As a iOS developer, I need to fix old bugs.
 
-* Configure SQL server
-* Develop working SQL model for this information
-* Configure Django server to process these requests
+* Fix bug: games sometimes goes to next phase unexpectedly
+* Fix other unknown/known bugs
+
+#### As a player, I want to view my profile on the iOS app.
+
+* Design user interface for displaying user name, skill level, unlocked cats and wins
+* Use the API provided by the server to fetch all required data
+
+#### As a player, I want to battle against multiple players in one game on the iOS app.
+
+* Redesign user interface to support battling against multiple players
+* Enable player choose a target for specific movement on the iOS app
+* Use the API provided by the server to show strategies of multiple enemies
+* Update player and enemies' status at the end of each phase
 
 ### Yueqiao Zhang
 
-#### As a player, I want to be able to register an account via an iPhone app
+#### As a player, I want to view my profile from the web app.
 
-* Build front end of iPhone app to accept registration
-* Build protocol between iPhone app and server
+* Design user interface for displaying user name, skill level, unlocked cats and wins
+* Use the API provided by the server to fetch all required data
+
+#### As a web developer, I need to design user interface for playing the game.
+
+* Design the user interface for finding a match
+* Design the user interface for playing the game
 
 ### Juan Gonzalez
 
-#### As a player, I want to be able to register an account via an iPhone app
+#### As a server developer, I need to fix old server bugs.
 
-* Configure custom python server to accept registration requests and forward to database
+* Fix bug: sometimes user can't use chance card
+* Fix other unknown/known bugs
+
+#### As a player, I want to view my profile on the iOS app.
+
+* Create API on the server side to send required user profile data to the iOS app
+
+#### As a player, I want to battle against multiple players in one game on the iOS app.
+
+* Create API on the server side to let player select one target from multiple enemies
+
+#### As a player, I want to view my profile from the web app.
+
+* Create API on the server side to send required user profile data to the web app
+
+#### As a server developer, I need to create server APIs for playing the game via the web app.
 
 ### Eric Martinez
 
-#### As a player, I want to be able to register an account via a website
+#### As a player, I want to view my profile on the iOS app.
 
-* Build basic website to handle registration
-* Store data into a database to track who has registered
+* Add required data columns including skill level and wins to database
+
+### Jiahua You
+
+### Jiahao Xu
 
 ## Initial Burnup Chart
 ![Alt text](https://docs.google.com/spreadsheets/d/1cR18Zlbq7eRBpJ_cUE_FLFMCvzjE2VScGuYUP0Wnkp8/pubchart?oid=1455941923&format=image "Burnup Chart")
