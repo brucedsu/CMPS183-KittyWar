@@ -89,39 +89,39 @@
 
 ### Hejia Su
 1. As an iOS developer, I need to polish iOS code
-* Code clean up and structure organization
+  * Code clean up and structure organization
 2. As a server developer, I need to accept connections from the browser web app
-* Research WebSockets and Server-Sent events and dicuss with team
+  * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Yueqiao Zhang
 1. As a player, I want to view my profile on the iOS and web app.
-* Design user interface for displaying username, cats and player stats (web app)
+  * Design user interface for displaying username, cats and player stats (web app)
 2. As a web developer, I would like to connect to the python game server.
-* Research WebSockets and Server-Sent events and dicuss with team
+  * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Juan Gonzalez
 1. As a server developer, I need to polish server code
-* Code clean up and structure organization
+  * Code clean up and structure organization
 2. As a server developer, I need to accept connections from the browser web app
-* Research WebSockets and Server-Sent events and dicuss with team
+  * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Eric Martinez
 1. As an android developer, I would like to have the project setup and design
-* Research libgdx library
-* Choose and create development environment
+  * Research libgdx library
+  * Choose and create development environment
 
 ### Jiahua You
 1. As a player, I want to view my profile on the iOS and web app.
-* Design the user interface for playing the game
+  * Design the user interface for playing the game
 2. As a web developer, I would like to connect to the python game server.
-* Research WebSockets and Server-Sent events and dicuss with team
+  * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Jiahao Xu
 1. As an iOS developer, I need to polish iOS code
-* Thoroughly review code base for any potential bugs
+  * Thoroughly review code base for any potential bugs
 2. As an android developer, I would like to have the project setup and design
-* Research libgdx library
-* Choose and create development environment
+  * Research libgdx library
+  * Choose and create development environment
 
 ## Initial Burnup Chart
 ![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
