@@ -12,8 +12,8 @@
     5. Jiahua You (Gawa)
     6. Jiahao Xu (Alex)
 * Release date: Mar 30, 2017
-* Revision number: 1.0
-* revision date: Jan 26, 2017
+* Revision number: 1.1
+* revision date: Jan 30, 2017
 
 ## Notice
 
@@ -22,24 +22,24 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 ## High Level Goals
 
 * Users are able to register their accounts, view their profiles and play the game via both the web app and mobile apps (iOS app and android app).
-* The server matches multiple players (two or more than two players) with closing level of skill into one game.
-* During the game, two players choose their representing cat and battle against each other by following the Kitty War Game Rule.
+* The server matches multiple players (two or more players) with closing level of skill into one game.
+* One server to support cross platform matches (Android, iOS, web app)
 * Add more cats, abilities and chance cards.
 
 ## User Stories
 
 ### Sprint 1
 
-* As a server developer, I need to fix old server bugs.
-* As a server developer, I need to create APIs on the server side for the web app.
-* As an iOS developer, I need to fix old bugs.
-* As a player, I want to view my profile on the iOS app.
-* As a player, I want to battle against multiple players in one game on the iOS app.
-* As a player, I want to view my profile from the web app.
-* As a web developer, I need to design user interface for playing the game.
+* As a server developer, I need to polish server code
+* As an iOS developer, I need to polish iOS code
+* As a server developer, I need to accept connections from the browser web app
+* As a player, I want to view my profile on the iOS and web app.
+* As a web developer, I would like to connect to the python game server.
+* As an android developer, I would like to have the project setup and design
 
 ### Sprint 2
 
+#### (Sprint 2 Tentative)
 * As a server developer, I need to add more cats, abilities and chance cards to the database.
 * As an iOS developer, I need to update the corresponding code to support more than two players battling in one game.
 * As a web developer, I need to use APIs provided by the server to send requests and receive responds. Then I make the web app update UI and internal data structures according to the returned data from the server.
@@ -50,31 +50,17 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 
 ### Sprint 3
 
+#### (Sprint 3 Tentative)
 * As an iOS developer, I need to keep polishing the app, fix bugs and add more animations.
 * As an android developer, I need to code the main game logics and make the game playable.
 * As an android developer, I need to keep polishing the game, fix bugs and add more animations.
 * As a player, the game now is playable via web. Game logics are correct. The animation is clear and intuitive.
 * As a server developer, I need to keep improving all the algorithms to make the whole system more stable.
 
-## Product Backlog
-
-* As a designer, I need to design more cat, ability and chance cards.
-
-## Architecture
-
-* Registration from both website and mobile apps
-* Play the game via both website and mobile apps
-* Server for storing data and doing algorithms
-
-## Challenges/Risks
-
-* Animation effects
-* Server compatibility
-* Fault tolerance
-
 ## Technologies
 
-* Web application: HTML/CSS/Javascript
+* Web application: HTML/CSS(Bootstrap)/Javascript
 * Server: Django, Python, MySQL
 * iPhone App: Swift, Xcode
+* Android App: Java, libGDX
 
