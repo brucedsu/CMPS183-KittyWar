@@ -3,138 +3,128 @@
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
 * Sprint completion date: Feb 13, 2017
-* Revision number: 1.0
-* Revision date: Jan 26, 2017
+* Revision number: 1.1
+* Revision date: Jan 30, 2017
 
-## Goal
+## Goals
 
-* Fix old bugs (server and iOS app).
-* Enable user to view his or her profile via both website and iPhone app.
-* Design user interface to support more than two players in one game.
+* Polish server and iOS applications
+* Enable user to view his or her profile via both website and iPhone app
+  (matches played, victories, loses, draws, achievements)
+* Setup browser application to connect to the python game server
+* Setup server to accept connections from players wishing to play in the broswer
+* Begin android game development
 
 ## User Stories
 
-### As a server developer, I need to fix old server bugs.
+### As a server developer, I need to polish server code
 
-* (2) Fix bug: sometimes user can't use chance card
-* (5) Fix other unknown/known bugs
-* Total story points: 7
+* 1-2 Hrs (2) Fix bug: User can not user chance cards in various situations
+* 1-2 Hrs (3) Code clean up and structure organization
+* 1-2 Hrs (3) Thoroughly review code base for any potential bugs
 
-### As a server developer, I need to create APIs on the server side for the web app.
-
-### As a iOS developer, I need to fix old bugs.
-
-* (2) Fix bug: games sometimes goes to next phase unexpectedly
-* (5) Fix other unknown/known bugs
-* Total story points: 7
-
-### As a player, I want to view my profile on the iOS app.
-
-* (3) Design user interface for displaying user name, skill level, unlocked cats and wins
-* (1) Add required data columns including skill level and wins to database
-* (3) Create API on the server side to send required user profile data to the iOS app
-* (3) Use the API provided by the server to fetch all required data
-* Total story points: 10
-
-### As a player, I want to battle against multiple players in one game on the iOS app.
-
-* (5) Redesign user interface to support battling against multiple players
-* (3) Create API on the server side to let player select one target from multiple enemies
-* (3) Enable player choose a target for specific movement on the iOS app
-* (3) Use the API provided by the server to show strategies of multiple enemies
-* (3) Update player and enemies' status at the end of each phase
-* Total story points: 17
-
-### As a player, I want to view my profile from the web app.
-
-* (3) Design user interface for displaying user name, skill level, unlocked cats and wins
-* (3) Create API on the server side to send required user profile data to the web app
-* (3) Use the API provided by the server to fetch all required data
-* Total story points: 9
-
-### As a web developer, I need to design user interface for playing the game.
-
-* (3) Design the user interface for finding a match
-* (5) Design the user interface for playing the game
 * Total story points: 8
+* Total task hours: 3 - 6 hours
 
-#### Grand Total Story Points: 58
+### As an iOS developer, I need to polish iOS code
+
+* 1-2 Hrs (2) Fix bug: User can not user chance cards in various situations
+* 1-2 Hrs (3) Code clean up and structure organization
+* 1-2 Hrs (3) Thoroughly review code base for any potential bugs
+
+* Total story points: 8
+* Total task hours: 3 - 6 hours
+
+### As a server developer, I need to accept connections from the browser web app
+
+* 2-3 Hrs (3) Research WebSockets and Server-Sent events and dicuss with team
+* 3-5 Hrs (5) Create a wrapper within server to support browser connections using selected technology
+* 2-3 Hrs (3) Update network code base to support communcation to iOS clients and browsers
+* 1-3 Hrs (5) Test integrity of the server with wrapper (Ensure wrapper uses existing server code correctly)
+
+* Total story points: 16
+* Total task hours: 8 - 14 hours
+
+### As a player, I want to view my profile on the iOS and web app.
+
+* 2-3 Hrs (3) Design user interface for displaying username, cats and player stats (iOS)
+* 2-3 Hrs (3) Design user interface for displaying username, cats and player stats (web app)
+* 1-2 Hrs (1) Finish adding required data columns to the database
+* 1-2 Hrs (1) Finish server side logic that stores player stats after a match is finished
+* 1-2 Hrs (1) Update server API for fetching data (New data and better responses)
+* Total story points: 9
+* Total task hours: 7 - 12 hours
+
+### As a web developer, I would like to connect to the python game server.
+
+* 2-3 Hrs (3) Research WebSockets and Server-Sent events and dicuss with team
+* 4-5 Hrs (5) Implement client side connection to python game server (javascript)
+* 2-3 Hrs (3) Design the user interface for finding a match
+* 2-3 Hrs (3) Design the user interface for playing the game
+* Total story points: 14
+* Total task hours: 10 - 14 hours
+
+### As an android developer, I would like to have the project setup and design
+
+* 2-3 Hrs (2) Research libgdx library
+* 1-2 Hrs (2) Choose and create development environment
+* 4-5 Hrs (5) Design game structure
+
+* Total story points: 9
+* Total task hours: 7 - 10 hours
+
+#### Grand Total Story Points: 64
+#### Grand Total Hours: 38 - 62 hours
 
 ## Team roles
 
-* :bowtie: Hejia Su (iOS & Server & Web Developer)
+* :bowtie: Hejia Su (iOS, Server & Web Developer)
 * :blush: Yueqiao Zhang (Web Developer)
 * :smirk: Juan Gonzalez (Server & Android Developer)
-* :sleeping: Eric Martinez (Server & Android Developer)
+* :sleeping: Eric Martinez (Android Developer)
 * :sunglasses: Jiahua You (Web Developer)
 * :yum: Jiahao Xu (iOS & Android Developer)
 
 ## Initial Tasks
 
 ### Hejia Su
-
-#### As a iOS developer, I need to fix old bugs.
-
-* Fix bug: games sometimes goes to next phase unexpectedly
-* Fix other unknown/known bugs
-
-#### As a player, I want to view my profile on the iOS app.
-
-* Design user interface for displaying user name, skill level, unlocked cats and wins
-* Use the API provided by the server to fetch all required data
-
-#### As a player, I want to battle against multiple players in one game on the iOS app.
-
-* Redesign user interface to support battling against multiple players
-* Enable player choose a target for specific movement on the iOS app
-* Use the API provided by the server to show strategies of multiple enemies
-* Update player and enemies' status at the end of each phase
+1. As an iOS developer, I need to polish iOS code
+* Code clean up and structure organization
+2. As a server developer, I need to accept connections from the browser web app
+* Research WebSockets and Server-Sent events and dicuss with team
 
 ### Yueqiao Zhang
-
-#### As a player, I want to view my profile from the web app.
-
-* Design user interface for displaying user name, skill level, unlocked cats and wins
-* Use the API provided by the server to fetch all required data
-
-#### As a web developer, I need to design user interface for playing the game.
-
-* Design the user interface for finding a match
-* Design the user interface for playing the game
+1. As a player, I want to view my profile on the iOS and web app.
+* Design user interface for displaying username, cats and player stats (web app)
+2. As a web developer, I would like to connect to the python game server.
+* Research WebSockets and Server-Sent events and dicuss with team
 
 ### Juan Gonzalez
-
-#### As a server developer, I need to fix old server bugs.
-
-* Fix bug: sometimes user can't use chance card
-* Fix other unknown/known bugs
-
-#### As a player, I want to view my profile on the iOS app.
-
-* Create API on the server side to send required user profile data to the iOS app
-
-#### As a player, I want to battle against multiple players in one game on the iOS app.
-
-* Create API on the server side to let player select one target from multiple enemies
-
-#### As a player, I want to view my profile from the web app.
-
-* Create API on the server side to send required user profile data to the web app
-
-#### As a server developer, I need to create server APIs for playing the game via the web app.
+1. As a server developer, I need to polish server code
+* Code clean up and structure organization
+2. As a server developer, I need to accept connections from the browser web app
+* Research WebSockets and Server-Sent events and dicuss with team
 
 ### Eric Martinez
-
-#### As a player, I want to view my profile on the iOS app.
-
-* Add required data columns including skill level and wins to database
+1. As an android developer, I would like to have the project setup and design
+* Research libgdx library
+* Choose and create development environment
 
 ### Jiahua You
+1. As a player, I want to view my profile on the iOS and web app.
+* Design the user interface for playing the game
+2. As a web developer, I would like to connect to the python game server.
+* Research WebSockets and Server-Sent events and dicuss with team
 
 ### Jiahao Xu
+1. As an iOS developer, I need to polish iOS code
+* Thoroughly review code base for any potential bugs
+2. As an android developer, I would like to have the project setup and design
+* Research libgdx library
+* Choose and create development environment
 
 ## Initial Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1cR18Zlbq7eRBpJ_cUE_FLFMCvzjE2VScGuYUP0Wnkp8/pubchart?oid=1455941923&format=image "Burnup Chart")
+![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
 
 ## Scrum Times
 
