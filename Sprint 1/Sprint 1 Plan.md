@@ -124,7 +124,7 @@
   * Choose and create development environment
 
 ## Initial Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
+![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=interactive "Burnup Chart")
 
 ## Scrum Times
 
