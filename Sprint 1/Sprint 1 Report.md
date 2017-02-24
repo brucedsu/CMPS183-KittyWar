@@ -3,16 +3,16 @@
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
 * Sprint completion date: Feb 13, 2017
-* Revision number: 1.1
-* Revision date: Feb 13, 2017
+* Revision number: 1.2
+* Revision date: Feb 22, 2017
 
 ## Actions to stop doing:
 
-* Meeting at random locations
+* N/A
 
 ## Actions to start doing:
 
-* Meeting in assigned lab room
+* N/A
 
 ## Actions to keep doing:
 
@@ -47,7 +47,7 @@
 * ✓ Design user interface for displaying username, cats and player stats (web app)
 * ✖ Finish adding required data columns to the database
 * ✖ Finish server side logic that stores player stats after a match is finished
-* ✖ Update server API for fetching data (New data and better responses)
+* ✓ Update server API for fetching data (New data and better responses)
 
 ### As a web developer, I would like to connect to the python game server.
 
@@ -68,7 +68,7 @@
 * 3/6
 
 ### Total User Story Tasks Completed
-* 16/22
+* 17/22
 
 ### Final Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1cR18Zlbq7eRBpJ_cUE_FLFMCvzjE2VScGuYUP0Wnkp8/pubchart?oid=1455941923&format=image "Burnup Chart")
+![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
