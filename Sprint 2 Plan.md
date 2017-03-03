@@ -21,9 +21,9 @@
 * 0.5 Hour (2) Add more chance cards to the database
 
 * Total story points: 6
-* Total task hours: 1 - 1.5 hours
+* Total task hours: 1.5 hours
 
-### (10) As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
+### As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
 
 * 2-3 hours (5) Redesign the user interface
 * 2-3 hours (5) Update corresponding code to support more than two players battling in one game
@@ -31,32 +31,33 @@
 * Total story points: 10
 * Total task hours: 4-6 hours
 
-### As a web developer, I need to use APIs provided by the server to send requests and receive responds. Then I make the web app update UI and internal data structures according to the returned data from the server.
+### As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
 
-* 2-3 hours (5) Use APIs provided by the server to send requests and receive responds
-* 2-3 hours (5) Update UI and internal data structures according to the responds
+* 2-3 hours (5) Use APIs provided by the server to receive responses
+* 2-3 hours (5) Build Javascript client to parse messages
+* 5-6 hours (8) Use parsed messages to update internal structure and generate messages accordingly
 
-* Total story points: 10
-* Total task hours: 4-6 hours
+* Total story points: 18
+* Total task hours: 9-12 hours
 
 ### As a player, I am able to register my account and view my profile via the android app.
 
 * 1-2 hours (5) Design user interface for registering account and showing profile
-* 1-2 hours (5) Implement register and showing user profile by using the server API
+* 2-3 hours (5) Design networking class that connects(login, logout) to game server
 
 * Total story points: 10
-* Total task hours: 2-4 hours
+* Total task hours: 3-5 hours
 
-### As an android developer, I need to do some research on the frameworks for creating the game and design the user interface for playing the game.
+### As an android developer, I need to design the game and start building a basic connection to the server.
 
-* 2-3 hours (3) Research the frameworks for creating the game
-* 2-3 hours (5) Design the user interface for playing the game
+* 2-3 hours (3) Design the entire game structure
+* 2-3 hours (5) Design networking class that connects(login, logout) to game server
 
 * Total story points: 8
 * Total task hours: 4-6 hours
 
-#### Grand Total Story Points: 44
-#### Grand Total Hours: 15 - 23.5 hours
+#### Grand Total Story Points: 52
+#### Grand Total Hours: 21.5 - 30.5 hours
 
 ## Team roles
 
@@ -69,45 +70,37 @@
 
 ## Initial Tasks
 
-### Hejia Su
-1. As an iOS developer, I need to polish iOS code
-  * Code clean up and structure organization
-2. As a server developer, I need to accept connections from the browser web app
-  * Research WebSockets and Server-Sent events and dicuss with team
+### Hejia Su & Jiahao Xu
 
-### Yueqiao Zhang
-1. As a player, I want to view my profile on the iOS and web app.
-  * Design user interface for displaying username, cats and player stats (web app)
-2. As a web developer, I would like to connect to the python game server.
-  * Research WebSockets and Server-Sent events and dicuss with team
+1. As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
+
+    * Redesign the user interface
+    * Update corresponding code to support more than two players battling in one game
+
+### Yueqiao Zhang & Jiahua You
+
+1. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+
+    * Use APIs provided by the server to receive responses
+    * Build Javascript client to parse messages
+    * Use parsed messages to update internal structure and generate messages accordingly
 
 ### Juan Gonzalez
-1. As a server developer, I need to polish server code
-  * Code clean up and structure organization
-2. As a server developer, I need to accept connections from the browser web app
-  * Research WebSockets and Server-Sent events and dicuss with team
+
+1. As a server developer, I need to add more cats, abilities and chance cards to the database.
+
+    * Add more cats to the database
+    * Add more abilities to the database
+    * Add more chance cards to the database
 
 ### Eric Martinez
-1. As an android developer, I would like to have the project setup and design
-  * Research libgdx library
-  * Choose and create development environment
 
-### Jiahua You
-1. As a player, I want to view my profile on the iOS and web app.
-  * Design the user interface for playing the game
-2. As a web developer, I would like to connect to the python game server.
-  * Research WebSockets and Server-Sent events and dicuss with team
-
-### Jiahao Xu
-1. As an iOS developer, I need to polish iOS code
-  * Thoroughly review code base for any potential bugs
-2. As an android developer, I would like to have the project setup and design
-  * Research libgdx library
-  * Choose and create development environment
+1. As a player, I am able to register my account and view my profile via the android app.
+2. As an android developer, I need to design the game and start building a basic connection to the server.
 
 ## Initial Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1UTgSQnq5KGxRl0Mk2hptpFh8HUBJQI9BpOhrItX3quM/pubchart?oid=344030991&format=image "Burnup Chart")
 
+![Alt text](https://docs.google.com/spreadsheets/d/1UTgSQnq5KGxRl0Mk2hptpFh8HUBJQI9BpOhrItX3quM/pubchart?oid=344030991&format=image "Burnup Chart")
 
 ## Scrum Times
 
