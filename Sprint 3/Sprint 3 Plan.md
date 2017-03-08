@@ -14,12 +14,20 @@
 
 ## User Stories
 
-### As an iOS developer, I need to integrate new server APIs and polish UI.
+### As an iOS developer, I need to integrate new server APIs.
 
+* 1-2 hours (3) Clean up and rearrange old networking code
 * 3-5 hours (8) Integrate new server APIs (e.g. select target for basic movement) to support more than two players battling
-* 3-5 hours (8) Keep polishing UI, make it more smooth and intuitive, add more animations
 
-* Total story points: 16
+* Total story points: 11
+* Total task hours: 4-6 hours
+
+### As an iOS developer, I need to polish UI and add more animations.
+
+* 3-5 hours (8) Keep polishing UI, better graphics and add more colors, make it more smooth and intuitive
+* 3-5 hours (5) Add more animations
+
+* Total story points: 13
 * Total task hours: 6-10 hours
 
 ### As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
@@ -31,10 +39,10 @@
 * Total story points: 18
 * Total task hours: 9-12 hours
 
-### As a web developer, I need to keep polishing UI and adding more animations.
+### As a web developer, I need to keep polishing UI and add more animations.
 
 * 3-5 hours (5) Polish UI, better layout and graphics, add more colors
-* 5-8 hours (5) Add more animations (e.g. card animation, view transitions)
+* 5-8 hours (5) Add more animations (e.g. card animations, view transitions)
 
 * Total story points: 10
 * Total task hours: 8-13 hours
