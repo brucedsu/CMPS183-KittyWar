@@ -2,9 +2,9 @@
 
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
-* Sprint completion date: Feb 22, 2017
-* Revision number: 1.2
-* Revision date: Mar 2, 2017
+* Sprint completion date: Mar 1, 2017
+* Revision number: 1.1
+* Revision date: Mar 8, 2017
 
 ## Actions to stop doing:
 
@@ -22,53 +22,41 @@
 ## Work Completed ✓
 ## Work Not Completed ✖
 
-### As a server developer, I need to polish server code
+### As a server developer, I need to add more cats, abilities and chance cards to the database.
 
-* ✓ Fix bug: User can not user chance cards in various situations
-* ✓ Code clean up and structure organization
-* ✓ Thoroughly review code base for any potential bugs
+* ✓ Add more cats to the database
+* ✓ Add more abilities to the database
+* ✖ Add more chance cards to the database (Decided against adding new chance cards)
 
-### As an iOS developer, I need to polish iOS code
+### As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
 
-* ✓  Fix bug: User can not user chance cards in various situations
-* ✓  Code clean up and structure organization
-* ✓  Thoroughly review code base for any potential bugs
+* ✓ Redesign the user interface
+* ✓ Update ui to allow users to select multiplayer match and display all players
 
-### As a server developer, I need to accept connections from the browser web app
+### As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
 
-* ✓ Research WebSockets and Server-Sent events and dicuss with team
-* ✓ Create a wrapper within server to support browser connections using selected technology
-* ✓ Update network code base to support communcation to iOS clients and browsers
-* ✓ Test integrity of the server with wrapper (Ensure wrapper uses existing server code correctly)
+* ✓ Use APIs provided by the server to receive responses
+* ✓ Build javascript client to parse messages
+* ✓ Use parsed messages to update internal structure and generate messages accordingly
 
-### As a player, I want to view my profile on the iOS and web app.
+### As a player, I am able to register my account and view my profile via the android app.
 
-* ✓ Design user interface for displaying username, cats and player stats (iOS)
-* ✓ Design user interface for displaying username, cats and player stats (web app)
-* ✓ Finish adding required data columns to the database
-* ✖ Finish server side logic that stores player stats after a match is finished
-* ✓ Update server API for fetching data (New data and better responses)
+* ✖ Design user interface for registering account and showing profile
+* ✖ Implement register and showing user profile by using the server API
 
-### As a web developer, I would like to connect to the python game server.
+### As an android developer, I need to design the game and start building a basic connection to the server
 
-* ✓ Research WebSockets and Server-Sent events and dicuss with team
-* ✓ Implement client side connection to python game server (javascript)
-* ✖ Design the user interface for finding a match
-* ✓ Design the user interface for playing the game
+* ✖ Design the entire game structure
+* ✖ Design networking class that connects(login, logout) to game server
 
-### As an android developer, I would like to have the project setup and design
-
-* ✓ Research libgdx library
-* ✓ Choose and create development environment
-* ✓ Design game structure
 
 ## Work Completion Rate
 
 ### Total User Stories Completed
-* 5/6
+* 3/5
 
 ### Total User Story Tasks Completed
-* 19/22
+* 7/12
 
 ### Final Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
+![Alt text](https://docs.google.com/spreadsheets/d/1KHgXE2oNkGNoJmVa0OlrPIQ8jR9LhunZWFkdhe-QUDg/pubchart?oid=1620622129&format=image "Burnup Chart")
