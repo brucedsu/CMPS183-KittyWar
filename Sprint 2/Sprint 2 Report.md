@@ -26,7 +26,7 @@
 
 * ✓ Add more cats to the database
 * ✓ Add more abilities to the database
-* ✖ Add more chance cards to the database (Decided against adding new chance cards)
+* ✓✖ Add more chance cards to the database (Decided against adding new chance cards)
 
 ### As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
 
