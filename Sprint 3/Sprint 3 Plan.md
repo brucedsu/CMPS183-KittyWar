@@ -2,17 +2,25 @@
 
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
-* Revision: 1.0
-* Revision date: Mar 3, 2017
+* Revision: 1.1
+* Revision date: Mar 8, 2017
 
 ## Goal
 
+* Test and correct added abilities and cats
 * Update server APIs to support more than two players battling
-* Connect the web application to the server, send request and handle responses
 * Finish and polish the web application
-* Add more cats to the database, implement more abilities and chance cards
 
 ## User Stories
+
+### As an server developer, I need to add remaining packets and hooks for new abilities and cats.
+
+* 0.5 - 1 hours (2) Add new packet for spotlight ability
+* 0.5 - 1 hours (2) Add network responses for spotlight and hunting abilties
+* 0.5 - 1 hours (2) All new cats should become avaialbe to existing players and new players
+
+* Total story points: 6
+* Total task hours: 1.5 - 3 hours
 
 ### As an iOS developer, I need to polish UI and add more animations.
 
@@ -47,8 +55,8 @@
 * Total story points: 10
 * Total task hours: 8-13 hours
 
-#### Grand Total Story Points: 54
-#### Grand Total Hours: 17 - 27.5 hours
+#### Grand Total Story Points: 60
+#### Grand Total Hours: 18.5 - 30.5 hours
 
 ## Team roles
 
@@ -65,43 +73,49 @@
 
 1. As an iOS developer, I need to integrate new server APIs.
 
-* 1-2 hours (3) Clean up and rearrange old networking code
-* 3-5 hours (8) Integrate new server APIs (e.g. select target for basic movement) to support more than two players battling
+ * Clean up and rearrange old networking code
+ * Integrate new server APIs (e.g. select target for basic movement) to support more than two players battling
 
 2. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
 
-* 5-6 hours (8) Use parsed messages to update internal structure and UI accordingly
+ * Use parsed messages to update internal structure and UI accordingly
 
 ### Yueqiao Zhang
 
 1. As a web developer, I need to keep polishing UI and add more animations.
 
-* 3-5 hours (5) Polish UI, better layout and graphics, add more colors
+ * Polish UI, better layout and graphics, add more colors
 
 2. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
 
-* 2-3 hours (5) Use APIs provided by the server to receive responses
-* 2-3 hours (5) Build Javascript client to parse messages
+ * Use APIs provided by the server to receive responses
+ * Build Javascript client to parse messages
 
 ### Juan Gonzalez
 
+1. As an server developer, I need to add remaining packets and hooks for new abilities and cats.
+ * All new cats should become avaialbe to existing players and new players
+
 ### Eric Martinez
+
+1. ???
+ * ???
 
 ### Jiahua You
 
 1. As a web developer, I need to keep polishing UI and add more animations.
 
-* 5-8 hours (5) Add more animations (e.g. card animations, view transitions)
+ * Add more animations (e.g. card animations, view transitions)
 
 ### Jiahao Xu
 
 1. As an iOS developer, I need to polish UI and add more animations.
 
-* 3-5 hours (8) Keep polishing UI, better graphics and add more colors, make it more smooth and intuitive
-* 3-5 hours (5) Add more animations
+ * Keep polishing UI, better graphics and add more colors, make it more smooth and intuitive
+ * Add more animations
 
 ## Initial Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1KHgXE2oNkGNoJmVa0OlrPIQ8jR9LhunZWFkdhe-QUDg/pubchart?oid=1620622129&format=image "Burnup Chart")
+![Alt text]("Burnup Chart")
 
 ## Scrum Times
 
