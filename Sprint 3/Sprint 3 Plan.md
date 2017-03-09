@@ -16,8 +16,8 @@
 ### As an server developer, I need to add remaining packets and hooks for new abilities and cats.
 
 * 0.5 - 1 hours (2) Add new packet for spotlight ability
-* 0.5 - 1 hours (2) Add network responses for spotlight and hunting abilties
-* 0.5 - 1 hours (2) All new cats should become avaialbe to existing players and new players
+* 0.5 - 1 hours (2) Add network responses for spotlight and hunting abilities
+* 0.5 - 1 hours (2) All new cats should become available to existing players and new players
 
 * Total story points: 6
 * Total task hours: 1.5 - 3 hours
@@ -82,11 +82,7 @@
 
 ### Yueqiao Zhang
 
-1. As a web developer, I need to keep polishing UI and add more animations.
-
- * Polish UI, better layout and graphics, add more colors
-
-2. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+1. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
 
  * Use APIs provided by the server to receive responses
  * Build Javascript client to parse messages
@@ -94,12 +90,13 @@
 ### Juan Gonzalez
 
 1. As an server developer, I need to add remaining packets and hooks for new abilities and cats.
- * All new cats should become avaialbe to existing players and new players
+ * All new cats should become available to existing players and new players
 
 ### Eric Martinez
 
-1. ???
- * ???
+1. As a web developer, I need to keep polishing UI and add more animations.
+
+ * Polish UI, better layout and graphics, add more colors
 
 ### Jiahua You
 
@@ -115,7 +112,8 @@
  * Add more animations
 
 ## Initial Burnup Chart
-![Alt text]("Burnup Chart")
+
+![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
 
 ## Scrum Times
 
