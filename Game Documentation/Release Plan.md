@@ -43,6 +43,7 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 * As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game
 * As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
 * As a player, I am able to register my account and view my profile via the android app.
+* As a player, I am able to find match
 * As an android developer, I need to design the game and start building a basic connection to the server
 
 ### Sprint 3
