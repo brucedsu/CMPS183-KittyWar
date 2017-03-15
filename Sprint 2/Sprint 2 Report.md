@@ -3,8 +3,8 @@
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
 * Sprint completion date: Mar 1, 2017
-* Revision number: 1.1
-* Revision date: Mar 8, 2017
+* Revision number: 1.2
+* Revision date: Mar 15, 2017
 
 ## Actions to stop doing:
 
@@ -22,18 +22,18 @@
 ## Work Completed ✓
 ## Work Not Completed ✖
 
-### As a server developer, I need to add more cats, abilities and chance cards to the database.
+### As a user, I would like to see more cats, abilities and chance cards in the game.
 
 * ✓ Add more cats to the database
 * ✓ Add more abilities to the database
 * ✓✖ Add more chance cards to the database (Decided against adding new chance cards)
 
-### As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
+### As a user, I would like an intuitive interface for battling more than two players.
 
 * ✓ Redesign the user interface
 * ✓ Update ui to allow users to select multiplayer match and display all players
 
-### As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+### As a web developer, I need incorporate the newly added APIs from the game server to implement gameplay.
 
 * ✓ Use APIs provided by the server to receive responses
 * ✓ Build javascript client to parse messages
