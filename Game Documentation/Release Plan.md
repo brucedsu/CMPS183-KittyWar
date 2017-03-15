@@ -30,12 +30,12 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 
 ### Sprint 1
 
-* As a server developer, I need to polish server code
-* As an iOS developer, I need to polish iOS code
-* As a server developer, I need to accept connections from the browser web app
-* As a player, I want to view my profile on the iOS and web app.
-* As a web developer, I would like to connect to the python game server.
-* As an android developer, I would like to have the project setup and design
+* As a server developer, the server code should be clean and readable
+* As an iOS developer, the iOS code should be clean and readable
+* As a server developer, the server should accept connections from the web app
+* As a player, I want to view my profile on the iOS and web app
+* As a user, I would like to connect to the game server
+* As an android developer, I would like to have the project setup and game design done
 
 ### Sprint 2
 
