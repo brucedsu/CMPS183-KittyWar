@@ -47,11 +47,10 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 
 ### Sprint 3
 
-* As an iOS developer, I need to keep polishing the app, fix bugs and add more animations.
-* As an android developer, I need to code the main game logics and make the game playable.
-* As an android developer, I need to keep polishing the game, fix bugs and add more animations.
-* As a player, the game now is playable via web. Game logics are correct. The animation is clear and intuitive.
-* As a server developer, I need to keep improving all the algorithms to make the whole system more stable.
+* As a user, I should be able to use the new abilities without crashing the game.
+* As an iOS user, I want to see a better UI overall and some animations
+* As an iOS user, I should be able to actually select and initiate a multi player match.
+* As a user, I would like to see an intuitive web app UI and to completely start and finish a match.
 
 ## Technologies
 
