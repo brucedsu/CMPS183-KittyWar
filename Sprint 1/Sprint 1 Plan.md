@@ -17,7 +17,7 @@
 
 ## User Stories
 
-### As a server developer, I need to polish server code
+### As a server developer, the server code should be clean and readable
 
 * 1-2 Hrs (2) Fix bug: User can not user chance cards in various situations
 * 1-2 Hrs (3) Code clean up and structure organization
@@ -26,7 +26,7 @@
 * Total story points: 8
 * Total task hours: 3 - 6 hours
 
-### As an iOS developer, I need to polish iOS code
+### As an iOS developer, the iOS code should be clean and readable
 
 * 1-2 Hrs (2) Fix bug: User can not user chance cards in various situations
 * 1-2 Hrs (3) Code clean up and structure organization
@@ -35,7 +35,7 @@
 * Total story points: 8
 * Total task hours: 3 - 6 hours
 
-### As a server developer, I need to accept connections from the browser web app
+### As a server developer, the server should accept connections from the web app
 
 * 2-3 Hrs (3) Research WebSockets and Server-Sent events and dicuss with team
 * 3-5 Hrs (5) Create a wrapper within server to support browser connections using selected technology
@@ -55,7 +55,7 @@
 * Total story points: 9
 * Total task hours: 7 - 12 hours
 
-### As a web developer, I would like to connect to the python game server.
+### As a user, I would like to connect to the game server.
 
 * 2-3 Hrs (3) Research WebSockets and Server-Sent events and dicuss with team
 * 4-5 Hrs (5) Implement client side connection to python game server (javascript)
@@ -64,7 +64,7 @@
 * Total story points: 14
 * Total task hours: 10 - 14 hours
 
-### As an android developer, I would like to have the project setup and design
+### As an android developer, I would like to have the project setup and game design done
 
 * 2-3 Hrs (2) Research libgdx library
 * 1-2 Hrs (2) Choose and create development environment
