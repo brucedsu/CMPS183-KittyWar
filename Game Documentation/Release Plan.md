@@ -12,8 +12,8 @@
     5. Jiahua You (Gawa)
     6. Jiahao Xu (Alex)
 * Release date: Mar 30, 2017
-* Revision number: 1.1
-* revision date: Jan 30, 2017
+* Revision number: 1.2
+* revision date: Mar 15, 2017
 
 ## Notice
 
@@ -39,15 +39,14 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 
 ### Sprint 2
 
-* As a server developer, I need to add more cats, abilities and chance cards to the database.
-* As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game
-* As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+* As a user, I would like to see more cats, abilities and chance cards in the game.
+* As a user, I would like an intuitive interface for battling more than two players.
+* As a web developer, I need incorporate the newly added APIs from the game server to implement gameplay.
 * As a player, I am able to register my account and view my profile via the android app.
 * As an android developer, I need to design the game and start building a basic connection to the server
 
 ### Sprint 3
 
-#### (Sprint 3 Tentative)
 * As an iOS developer, I need to keep polishing the app, fix bugs and add more animations.
 * As an android developer, I need to code the main game logics and make the game playable.
 * As an android developer, I need to keep polishing the game, fix bugs and add more animations.
