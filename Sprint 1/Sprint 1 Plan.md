@@ -3,8 +3,8 @@
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
 * Sprint completion date: Feb 13, 2017
-* Revision number: 1.1
-* Revision date: Jan 30, 2017
+* Revision number: 1.2
+* Revision date: Mar 15, 2017
 
 ## Goals
 
@@ -88,21 +88,21 @@
 ## Initial Tasks
 
 ### Hejia Su
-1. As an iOS developer, I need to polish iOS code
+1. As an iOS developer, the iOS code should be clean and readable
   * Code clean up and structure organization
-2. As a server developer, I need to accept connections from the browser web app
+2. As a server developer, the server should accept connections from the web app
   * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Yueqiao Zhang
 1. As a player, I want to view my profile on the iOS and web app.
   * Design user interface for displaying username, cats and player stats (web app)
-2. As a web developer, I would like to connect to the python game server.
+2. As a user, I would like to connect to the game server.
   * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Juan Gonzalez
-1. As a server developer, I need to polish server code
+1. As a server developer, the server code should be clean and readable
   * Code clean up and structure organization
-2. As a server developer, I need to accept connections from the browser web app
+2. As a server developer, the server should accept connections from the web app
   * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Eric Martinez
@@ -113,13 +113,13 @@
 ### Jiahua You
 1. As a player, I want to view my profile on the iOS and web app.
   * Design the user interface for playing the game
-2. As a web developer, I would like to connect to the python game server.
+2. As a user, I would like to connect to the game server.
   * Research WebSockets and Server-Sent events and dicuss with team
 
 ### Jiahao Xu
-1. As an iOS developer, I need to polish iOS code
+1. As an iOS developer, the iOS code should be clean and readable
   * Thoroughly review code base for any potential bugs
-2. As an android developer, I would like to have the project setup and design
+2. As an android developer, I would like to have the project setup and game design done
   * Research libgdx library
   * Choose and create development environment
 
