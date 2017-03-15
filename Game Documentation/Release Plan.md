@@ -43,6 +43,7 @@ This project is based on the CMPS 115 project [Kitty War Card Game](https://gith
 * As a user, I would like an intuitive interface for battling more than two players.
 * As a web developer, I need incorporate the newly added APIs from the game server to implement gameplay.
 * As a player, I am able to register my account and view my profile via the android app.
+* As a player, I am able to find match
 * As an android developer, I need to design the game and start building a basic connection to the server
 
 ### Sprint 3

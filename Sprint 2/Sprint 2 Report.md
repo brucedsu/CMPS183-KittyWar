@@ -59,4 +59,4 @@
 * 7/12
 
 ### Final Burnup Chart
-![Alt text](https://docs.google.com/spreadsheets/d/1KHgXE2oNkGNoJmVa0OlrPIQ8jR9LhunZWFkdhe-QUDg/pubchart?oid=1620622129&format=image "Burnup Chart")
+![Alt text](https://docs.google.com/spreadsheets/d/1UTgSQnq5KGxRl0Mk2hptpFh8HUBJQI9BpOhrItX3quM/pubchart?oid=344030991&format=image "Burnup Chart")
