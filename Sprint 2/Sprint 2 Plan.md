@@ -2,8 +2,8 @@
 
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
-* Revision: 1.1
-* Revision date: Feb 22, 2017
+* Revision: 1.2
+* Revision date: Mar 15, 2017
 
 ## Goal
 
@@ -14,7 +14,7 @@
 
 ## User Stories
 
-### As a server developer, I need to add more cats, abilities and chance cards to the database.
+### As a user, I would like to see more cats, abilities and chance cards in the game.
 
 * 0.5 Hour (2) Add more cats to the database
 * 0.5 Hour (2) Add more abilities to the database
@@ -23,7 +23,7 @@
 * Total story points: 6
 * Total task hours: 1 - 1.5 hours
 
-### As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
+### As a user, I would like an intuitive interface for battling more than two players.
 
 * 2-3 hours (5) Redesign the user interface
 * 2-3 hours (5) Update ui to allow users to select multiplayer match and display all players
@@ -31,7 +31,7 @@
 * Total story points: 10
 * Total task hours: 4-6 hours
 
-### As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+### As a web developer, I need incorporate the newly added APIs from the game server to implement gameplay.
 
 * 2-3 hours (5) Use APIs provided by the server to receive responses
 * 2-3 hours (5) Build javascript client to parse messages
@@ -71,16 +71,16 @@
 ## Initial Tasks
 
 ### Hejia Su
-1. As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
+1. As a user, I would like an intuitive interface for battling more than two players.
  * Redesign the user interface
 
 ### Yueqiao Zhang
-1. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+1. As a web developer, I need incorporate the newly added APIs from the game server to implement gameplay.
  * Use APIs provided by the server to receive responses
  * Build javascript client to parse messages
 
 ### Juan Gonzalez
-1. As a server developer, I need to add more cats, abilities and chance cards to the database.
+1. As a user, I would like to see more cats, abilities and chance cards in the game.
  * Add more cats to the database
 
 ### Eric Martinez
@@ -88,11 +88,11 @@
  * Design the entire game structure
 
 ### Jiahua You
-1. As an iOS developer, I need to update the corresponding interface and code to support more than two players battling in one game.
+1. As a user, I would like an intuitive interface for battling more than two players.
  * Redesign the user interface
 
 ### Jiahao Xu
-1. As a web developer, I need to use APIs provided by the server to receive responses and react accordingly.
+1. As a web developer, I need incorporate the newly added APIs from the game server to implement gameplay.
  * Use APIs provided by the server to receive responses
  * Build javascript client to parse messages
 
