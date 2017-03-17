@@ -86,9 +86,9 @@
 
 ### Eric Martinez
 
-1. As a web developer, I need to keep polishing UI and add more animations.
+1. ???
 
- * Polish UI, better layout and graphics, add more colors
+ * ???
 
 ### Jiahua You
 
@@ -105,7 +105,7 @@
 
 ## Initial Burnup Chart
 
-![Alt text](https://docs.google.com/spreadsheets/d/1kNPbQodJxOnd6jVTh3zl9beclvVPsqdVMUASm1itPx4/pubchart?oid=1620622129&format=image "Burnup Chart")
+![Alt text](https://docs.google.com/spreadsheets/d/1HFTLe_0LG9SFyMERTmzXf45yZCGU_8sykRimZDVXeoU/pubchart?oid=1620622129&format=image "Burnup Chart")
 
 ## Scrum Times
 
