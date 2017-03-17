@@ -3,7 +3,7 @@
 * Product name: Kitty War
 * Team name: Dog & Koala Bear
 * Sprint completion date: Mar 17, 2017
-* Revision: 1.0
+* Revision: 1.1
 * Revision date: Mar 16, 2017
 
 ## Actions to stop doing:
